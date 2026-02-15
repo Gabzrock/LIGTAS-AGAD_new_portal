@@ -307,7 +307,9 @@
         .footer-logo-img {
             margin-top: 20px;
             max-width: 350px;
-            height: auto;
+            width: 30%; /* Image will be 50% the width of its parent element */
+            height: auto; /* Maintains the original aspect ratio */
+            max-width: 100%; /* Ensures the image doesn't exceed its natural size if the container is larger *
             display: block;
         }
 
