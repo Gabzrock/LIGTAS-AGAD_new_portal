@@ -1,4 +1,4 @@
-// --- 1. POPUP LOGIC ---
+        // --- 1. POPUP LOGIC ---
         // Show modal automatically on page load
         window.onload = function() {
             var modal = document.getElementById("welcomeModal");
